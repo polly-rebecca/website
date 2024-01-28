@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+
+
+    <section class="w3-container w3-center w3-content" style="max-width:600px">
+        <h1 class="w3-wide"><b>Your Perfect Adventure!</b></h1>
+        <p class="w3-opacity"><i>Stop wishing you were on an adventure and just do it! You'll thank us later.</i></p>
+      </section>
+    
+      <nav class="w3-bar w3-black">
+        <a href="#home.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Home</a>
+        <a href="index.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Questionnaire</a>
+        <a href="#faq.html" class="w3-button w3-bar-item w3-container w3-center w3-content">FAQ</a>
+        <a href="#contact.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Contact</a>
+    </nav>>
+
+<section>
+    <img class="mySlides" src="adventure-tourism.jpg" style="width:100%">
+    <img class="mySlides" src="beache.webp" style="width:100%">
+    <img class="mySlides" src="flipflop.jpg" style="width:100%">
+    <img class="mySlides" src="water.webp" style="width:100%"> 
+</section>
+
+      <section>
+        <nav class="w3-row-padding w3-center w3-light-grey">
+          <article class="w3-third">
+          <p>Q1: What is your favourite season?</p>
+          <a href="Q2.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Summer</a>
+          <a href="Q2.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Spring</a>
+          <a href="Q2.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Autumn</a>
+          <a href="Q2.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Winter</a>
+        </article>
+       </nav>
+      </section>
+
+    
+
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <p><a href="https://www.booking.com/index.en-gb.html?label=gen173nr-1BCAEoggI46AdIM1gEaFCIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4As3wxK0GwAIB0gIkNjA3NDlkMjctMzdiNy00NmM4LWJlNmEtMjNhMmMyODYxYThh2AIF4AIB&sid=82715c279a4d224d977c24b85724dc50&keep_landing=1&sb_price_type=total&"><img class="footer" src="Booking.com-logo-1.png" style="max-width:100px" ></a></p>
+  <p><a href="https://www.skyscanner.net/"><i class="fa fa-sky-scanner.com"></i>
+    <img class="footer" src="sscanner.webp" style="max-width:100px">
+  </a></p>
+  <p class="w3-medium">
+  Powered by <a href="https://codefirstgirls.com/" target="_blank">codefirstgirls</a>
+  </p>
+</footer>
+
+
+        <script>
+            // Automatic Slideshow - change image every 5 seconds
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}
+              x[myIndex-1].style.display = "block";
+              setTimeout(carousel, 5000);
+            }
+         </script>
+    
+    </body>
+    </html>

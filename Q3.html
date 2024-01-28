@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+
+
+    <section class="w3-container w3-center w3-content" style="max-width:600px">
+        <h1 class="w3-wide"><b>Your Perfect Adventure!</b></h1>
+        <p class="w3-opacity"><i>Stop wishing you were on an adventure and just do it! You'll thank us later.</i></p>
+      </section>
+    
+      <nav class="w3-bar w3-black">
+        <a href="#home.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Home</a>
+        <a href="index.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Questionnaire</a>
+        <a href="#faq.html" class="w3-button w3-bar-item w3-container w3-center w3-content">FAQ</a>
+        <a href="#contact.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Contact</a>
+    </nav>>
+
+<section>
+    <img class="mySlides" src="adventure-tourism.jpg" style="width:100%">
+    <img class="mySlides" src="beache.webp" style="width:100%">
+    <img class="mySlides" src="flipflop.jpg" style="width:100%">
+    <img class="mySlides" src="water.webp" style="width:100%"> 
+</section>
+
+<section>
+      <nav class="w3-row-padding w3-center w3-light-grey">
+        <article class="w3-third">
+            <a href="Q4.html" class="w3-button w3-bar-item w3-container w3-center w3-content">I'm counting pennies</p>
+            <a href="Q4.html" class="w3-button w3-bar-item w3-container w3-center w3-content">I'm not great with money, but i suppose i could start saving</p>
+            <a href="Q4.html" class="w3-button w3-bar-item w3-container w3-center w3-content">I can treat myself, but i'm sensible about it</p>
+            <a href="Q4.html" class="w3-button w3-bar-item w3-container w3-center w3-content">Money is no object</p>
+          </article>
+      </nav>
+</section>
+
+    
+
+        <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+            <a href="#"><i class="fa fa-booking.com"></i></a>
+            <a href="#"><i class="fa fa-sky-scanner.com"></i></a>
+            <p class="w3-medium">
+            Powered by <a href="https://codefirstgirls.com/" target="_blank">codefirstgirls</a>
+            </p>
+          </footer>
+    
+        <script>
+            // Automatic Slideshow - change image every 3 seconds
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}
+              x[myIndex-1].style.display = "block";
+              setTimeout(carousel, 3000);
+            }
+         </script>
+    
+    </body>
+    </html>
